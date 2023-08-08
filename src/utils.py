@@ -44,7 +44,7 @@ def evaluate_model(X_train,y_train,X_test,y_test,models):
         return report
 
     except Exception as e:
-        logging.info('Exception occured during model training')git
+        logging.info('Exception occured during model training')
 
 
 def load_object(file_path):
